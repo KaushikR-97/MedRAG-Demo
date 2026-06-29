@@ -1,0 +1,14 @@
+{
+  "name": "medrag-india",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/web"
+  ],
+  "scripts": {
+    "web:dev": "npm --workspace apps/web run dev",
+    "web:build": "npm --workspace apps/web run build",
+    "web:start": "npm --workspace apps/web run start",
+    "web:preview": "npm --workspace apps/web run preview"
+  }
+}

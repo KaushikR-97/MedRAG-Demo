@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.env
+*.db
+*.sqlite
+*.egg-info/
+node_modules/
+.pnpm-store/
+dist/
+apps/web/layout-previews/
+.DS_Store

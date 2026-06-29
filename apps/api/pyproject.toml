@@ -1,0 +1,74 @@
+[project]
+name = "medrag-india-api"
+version = "0.1.0"
+description = "Production-oriented MedRAG India backend scaffold"
+requires-python = ">=3.11"
+dependencies = [
+  "alembic>=1.13.0",
+  "boto3>=1.34.0",
+  "bcrypt>=4.1.3",
+  "clamd>=1.0.2",
+  "cryptography>=42.0.0",
+  "email-validator>=2.2.0",
+  "fastapi>=0.115.0",
+  "langchain>=0.3.0",
+  "langchain-community>=0.3.0",
+  "langchain-core>=0.3.0",
+  "langchain-openai>=0.2.0",
+  "langgraph>=0.2.0",
+  "open-clip-torch>=2.26.0",
+  "Pillow>=10.4.0",
+  "pydantic>=2.8.0",
+  "pydantic-settings>=2.4.0",
+  "psycopg[binary]>=3.2.0",
+  "python-jose[cryptography]>=3.3.0",
+  "python-multipart>=0.0.9",
+  "qdrant-client>=1.11.0",
+  "rank-bm25>=0.2.2",
+  "redis>=5.0.0",
+  "rq>=1.16.0",
+  "sentence-transformers>=3.0.0",
+  "sqlalchemy>=2.0.31",
+  "torch>=2.3.0",
+  "transformers>=4.44.0",
+  "twilio>=9.0.0",
+  "uvicorn[standard]>=0.30.0",
+]
+
+[project.optional-dependencies]
+ocr = [
+  "paddleocr>=2.8.1",
+  "paddlepaddle>=2.6.2",
+  "pypdf>=4.3.1",
+  "PyMuPDF>=1.24.9",
+]
+
+finetune = [
+  "accelerate>=0.33.0",
+  "bitsandbytes>=0.43.0",
+  "datasets>=2.20.0",
+  "peft>=0.12.0",
+  "trl>=0.9.6",
+  "openai-whisper>=20231117",
+]
+
+dev = [
+  "httpx>=0.27.0",
+  "pytest>=8.2.0",
+  "ruff>=0.5.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+exclude = ["alembic*", "training*", "tests*"]
