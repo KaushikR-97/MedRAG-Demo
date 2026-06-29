@@ -1,8 +1,8 @@
 """Add v3/v4 feature module tables.
 
-Revision ID: 20260428_0002
-Revises: 20260428_0001
-Create Date: 2026-04-28
+Revision ID: 20250428_0002
+Revises: 20250428_0001
+Create Date: 2025-04-28
 """
 
 from collections.abc import Sequence
@@ -10,8 +10,8 @@ from collections.abc import Sequence
 from alembic import op
 import sqlalchemy as sa
 
-revision: str = "20260428_0002"
-down_revision: str | None = "20260428_0001"
+revision: str = "20250428_0002"
+down_revision: str | None = "20250428_0001"
 branch_labels: str | Sequence[str] | None = None
 depends_on: str | Sequence[str] | None = None
 

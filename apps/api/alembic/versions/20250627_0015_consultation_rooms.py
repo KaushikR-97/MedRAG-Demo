@@ -1,8 +1,8 @@
 """add secure consultation rooms
 
-Revision ID: 20260627_0015
-Revises: 20260626_0014
-Create Date: 2026-06-27
+Revision ID: 20250627_0015
+Revises: 20250626_0014
+Create Date: 2025-06-27
 """
 
 from collections.abc import Sequence
@@ -10,8 +10,8 @@ from collections.abc import Sequence
 import sqlalchemy as sa
 from alembic import op
 
-revision: str = "20260627_0015"
-down_revision: str | None = "20260626_0014"
+revision: str = "20250627_0015"
+down_revision: str | None = "20250626_0014"
 branch_labels: str | Sequence[str] | None = None
 depends_on: str | Sequence[str] | None = None
 

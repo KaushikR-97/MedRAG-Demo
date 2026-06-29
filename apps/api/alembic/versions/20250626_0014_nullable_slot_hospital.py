@@ -1,16 +1,16 @@
 """make slot hospital nullable
 
-Revision ID: 20260626_0014
-Revises: 20260626_0013
-Create Date: 2026-06-26
+Revision ID: 20250626_0014
+Revises: 20250626_0013
+Create Date: 2025-06-26
 """
 
 from collections.abc import Sequence
 from alembic import op
 import sqlalchemy as sa
 
-revision: str = "20260626_0014"
-down_revision: str | None = "20260626_0013"
+revision: str = "20250626_0014"
+down_revision: str | None = "20250626_0013"
 branch_labels: str | Sequence[str] | None = None
 depends_on: str | Sequence[str] | None = None
 

@@ -1,8 +1,8 @@
 """Add BioMedCLIP image embedding tracking fields.
 
-Revision ID: 20260501_0005
-Revises: 20260429_0004
-Create Date: 2026-05-01
+Revision ID: 20250501_0005
+Revises: 20250429_0004
+Create Date: 2025-05-01
 """
 
 from collections.abc import Sequence
@@ -10,8 +10,8 @@ from collections.abc import Sequence
 from alembic import op
 import sqlalchemy as sa
 
-revision: str = "20260501_0005"
-down_revision: str | None = "20260429_0004"
+revision: str = "20250501_0005"
+down_revision: str | None = "20250429_0004"
 branch_labels: str | Sequence[str] | None = None
 depends_on: str | Sequence[str] | None = None
 

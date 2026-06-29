@@ -1,8 +1,8 @@
 """Create simulated_sms_messages table.
 
-Revision ID: 20260625_0010
-Revises: 20260625_0009
-Create Date: 2026-06-25
+Revision ID: 20250625_0010
+Revises: 20250625_0009
+Create Date: 2025-06-25
 """
 
 from collections.abc import Sequence
@@ -10,8 +10,8 @@ from collections.abc import Sequence
 from alembic import op
 import sqlalchemy as sa
 
-revision: str = "20260625_0010"
-down_revision: str | None = "20260625_0009"
+revision: str = "20250625_0010"
+down_revision: str | None = "20250625_0009"
 branch_labels: str | Sequence[str] | None = None
 depends_on: str | Sequence[str] | None = None
 

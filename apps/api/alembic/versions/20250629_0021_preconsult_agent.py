@@ -1,16 +1,16 @@
 """preconsult agent
 
-Revision ID: 20260629_0021
-Revises: 20260628_0020
-Create Date: 2026-06-29 00:00:00.000000
+Revision ID: 20250629_0021
+Revises: 20250628_0020
+Create Date: 2025-06-29 00:00:00.000000
 """
 
 from alembic import op
 import sqlalchemy as sa
 
 
-revision = "20260629_0021"
-down_revision = "20260628_0020"
+revision = "20250629_0021"
+down_revision = "20250628_0020"
 branch_labels = None
 depends_on = None
 

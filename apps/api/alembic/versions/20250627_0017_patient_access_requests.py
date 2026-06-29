@@ -1,16 +1,16 @@
 """patient access requests
 
-Revision ID: 20260627_0017
-Revises: 20260627_0016
-Create Date: 2026-06-27
+Revision ID: 20250627_0017
+Revises: 20250627_0016
+Create Date: 2025-06-27
 """
 
 from alembic import op
 import sqlalchemy as sa
 
 
-revision = "20260627_0017"
-down_revision = "20260627_0016"
+revision = "20250627_0017"
+down_revision = "20250627_0016"
 branch_labels = None
 depends_on = None
 

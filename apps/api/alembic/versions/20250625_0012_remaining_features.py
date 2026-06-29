@@ -1,8 +1,8 @@
 """Create guideline_drift_alerts and phr_ledger_blocks tables.
 
-Revision ID: 20260625_0012
-Revises: 20260625_0011
-Create Date: 2026-06-25
+Revision ID: 20250625_0012
+Revises: 20250625_0011
+Create Date: 2025-06-25
 """
 
 from collections.abc import Sequence
@@ -10,8 +10,8 @@ from collections.abc import Sequence
 from alembic import op
 import sqlalchemy as sa
 
-revision: str = "20260625_0012"
-down_revision: str | None = "20260625_0011"
+revision: str = "20250625_0012"
+down_revision: str | None = "20250625_0011"
 branch_labels: str | Sequence[str] | None = None
 depends_on: str | Sequence[str] | None = None
 

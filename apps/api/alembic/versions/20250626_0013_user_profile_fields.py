@@ -1,8 +1,8 @@
 """Add profile and billing fields.
 
-Revision ID: 20260626_0013
-Revises: 20260625_0012
-Create Date: 2026-06-26
+Revision ID: 20250626_0013
+Revises: 20250625_0012
+Create Date: 2025-06-26
 """
 
 from collections.abc import Sequence
@@ -10,8 +10,8 @@ from collections.abc import Sequence
 from alembic import op
 import sqlalchemy as sa
 
-revision: str = "20260626_0013"
-down_revision: str | None = "20260625_0012"
+revision: str = "20250626_0013"
+down_revision: str | None = "20250625_0012"
 branch_labels: str | Sequence[str] | None = None
 depends_on: str | Sequence[str] | None = None
 
